@@ -1,0 +1,10 @@
+[tool.poetry]
+name = "atm-controller"
+version = "0.1.0"
+description = ""
+authors = ["Jaemin Park <jmp7786@gmail.com>"]
+readme = "README.md"
+packages = [{include = "atm_controller"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
